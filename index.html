@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diwali Celebration | A Golden Surprise</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="fireworks"></canvas>
+
+    <div class="background-glow"></div>
+
+    <main class="container">
+        
+
+
+
+        <!-- WELCOME SCREEN -->
+        <section class="screen active" id="welcomeScreen">
+
+            <div class="top-label">
+                ✦ THE FESTIVAL OF LIGHTS ✦
+            </div>
+
+            <div class="diya-icon">✧</div>
+
+            <h1>
+                A Golden<br>
+                <span>Diwali Surprise</span>
+            </h1>
+
+            <p class="welcome-text">
+                A little celebration, a little sparkle,
+                and a beautiful wish waiting just for you.
+            </p>
+
+            <button class="gold-button" id="startButton">
+                START CELEBRATION
+                <span>↗</span>
+            </button>
+
+            <p class="bottom-note">
+                LIGHT • JOY • PROSPERITY
+            </p>
+
+        </section>
+
+
+        <!-- GAME SCREEN -->
+        <section class="screen game-screen" id="gameScreen">
+
+            <div class="top-label">
+                ✦ YOUR GOLDEN CELEBRATION ✦
+            </div>
+
+            <h2>Let the <span>Sparkles</span> Begin</h2>
+
+            <p class="game-description">
+                Tap each golden cracker and unlock your Diwali surprise.
+            </p>
+
+            <div class="progress-area">
+
+                <div class="progress-info">
+                    <span>YOUR PROGRESS</span>
+                    <span id="scoreText">0 / 5</span>
+                </div>
+
+                <div class="progress-track">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+
+            </div>
+
+            <div class="cracker-stage" id="crackerStage">
+
+                <div class="stage-instruction" id="stageInstruction">
+                    ✦ Tap a golden cracker to burst it ✦
+                </div>
+
+            </div>
+
+            <p class="game-footer">
+                Five little sparks. One beautiful surprise.
+            </p>
+
+        </section>
+
+
+        <!-- WISHES SCREEN -->
+        <section class="screen wishes-screen" id="wishesScreen">
+
+            <div class="top-label">
+                ✦ A SPECIAL WISH FOR YOU ✦
+            </div>
+
+            <div class="wish-symbol">✧</div>
+
+            <p class="wish-small">THE LIGHTS ARE SHINING BRIGHTER</p>
+
+            <h1>
+                Happy<br>
+                <span>Diwali!</span>
+            </h1>
+
+            <div class="wish-divider">
+                <span>✦</span>
+            </div>
+
+            <p class="wish-message">
+                May this Diwali illuminate your life with
+                endless happiness, fill your heart with peace,
+                and bring prosperity, success and beautiful
+                new beginnings.
+            </p>
+
+            <p class="wish-highlight">
+                May your days shine as bright as the lights
+                of this beautiful festival.
+            </p>
+
+            <div class="final-greeting">
+                With warm wishes & lots of light ✨
+            </div>
+
+            <button class="gold-button replay-button" id="replayButton">
+                CELEBRATE AGAIN ↻
+            </button>
+
+            <p class="bottom-note">
+                SPREAD LIGHT • SPREAD HAPPINESS
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
